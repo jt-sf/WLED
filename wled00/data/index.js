@@ -162,6 +162,7 @@ function cTheme(light) {
 
 function loadBg(iUrl) {
 	let bg = d.getElementById('bg');
+<<<<<<< HEAD
 	let img = d.createElement("img");
 	img.src = iUrl;
 	if (iUrl == "") {
@@ -174,6 +175,14 @@ function loadBg(iUrl) {
 			if (today>=hs && today<=he)	img.src = hol[i][4];
 		}
 	}
+=======
+  let img = d.createElement("img");
+  img.src = iUrl;
+  if (iUrl == "") {
+    var today = new Date();
+    if (today.getMonth() == 11 && (today.getDate() > 23 && today.getDate() < 28)) img.src = "https://aircoookie.github.io/xmas.png";
+  }
+>>>>>>> parent of 46d66dd (Release of WLED v0.12.0)
 	img.addEventListener('load', (event) => {
 		var a = parseFloat(cfg.theme.alpha.bg);
 		if (isNaN(a)) a = 0.6;

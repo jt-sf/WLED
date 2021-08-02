@@ -383,7 +383,11 @@ void getSettingsJS(byte subPage, char* dest)
     }
     sappend('v',SET_F("TT"),touchThreshold);
     sappend('v',SET_F("IR"),irPin);
+<<<<<<< HEAD
     sappend('v',SET_F("IT"),irEnabled);
+=======
+    sappend('v',SET_F("AX"),auxPin);
+>>>>>>> parent of 46d66dd (Release of WLED v0.12.0)
   }
 
   if (subPage == 3)

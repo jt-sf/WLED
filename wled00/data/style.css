@@ -16,6 +16,7 @@ button, .btn {
   border: 0.3ch solid #333;
   display: inline-block;
   font-size: 20px;
+<<<<<<< HEAD
   margin: 12px 8px 8px;
   padding: 1px 6px;
   cursor: pointer;
@@ -23,6 +24,10 @@ button, .btn {
 }
 .lnk {
   border: 0;
+=======
+  margin: 8px;
+  margin-top: 12px;
+>>>>>>> parent of 46d66dd (Release of WLED v0.12.0)
 }
 .helpB {
   text-align: left;
